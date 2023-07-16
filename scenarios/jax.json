@@ -367,6 +367,9 @@
             "EPXOM/s210 JEVAG/a1900 ADERR/a1900 MUDVE/a1000 _CRG_32/a41"
           ]
         }
+      },
+      "departure_routes": {
+        
       }
     },
     "KGNV": {
@@ -706,7 +709,7 @@
     ]
   },
   "center": "KJAX",
-  "control_positions": {
+  "control_positions": {  
     "JAX_30_CTR": {
       "callsign": "JAX_30_CTR",
       "frequency": 135925,
