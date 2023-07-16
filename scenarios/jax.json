@@ -369,7 +369,23 @@
         }
       },
       "departure_routes": {
-        
+        "14": {
+          "TYGER": {
+            "cleared_altitude": "2000",
+            "route": "TYGER",
+            "waypoints": "_CRG_14 _CRG_32 TYGER"
+          },
+          "ALLMA": {
+            "cleared_altitude": "2000",
+            "route": "ALLMA",
+            "waypoints": "_CRG_14 _CRG_32 ALLMA"
+          },
+          "SSI": {
+            "cleared_altitude": "2000",
+            "route": "SSI",
+            "waypoints": "_CRG_14 _CRG_32 SSI"
+          }
+        }
       }
     },
     "KGNV": {
