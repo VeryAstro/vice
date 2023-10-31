@@ -258,7 +258,24 @@
           "stagger_symbol": "0",
           "tie_offset": 2.5
         }
-      ]
+      ],
+      "departure_routes": {
+        "15R": {
+          "CONLE": {
+            "cleared_altitude": 14000,
+            "route": "CONLE4",
+            "waypoints": "_BWI_15R _BWI_33L KEMMP BEWEE OHSSS/a11000+"
+          },
+          "AMEEE": {
+            "cleared_altitude": 14000,
+            "route": "CONLE4",
+            "waypoints": "_BWI_15R _BWI_33L KEMMP BEWEE OHSSS/a11000+ CONLE/a14000-"
+          }
+        },
+        "28": {
+          "CONLE"
+        }
+      }
     }
   }
 }
