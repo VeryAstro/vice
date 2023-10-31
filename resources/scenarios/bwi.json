@@ -1,0 +1,264 @@
+{
+  "airports": {
+    "KBWI": {
+      "name": "Baltimore",
+      "approaches": {
+        "I10": {
+          "full_name": "ILS Runway 10",
+          "runway": "10",
+          "type": "ILS",
+          "waypoints": [
+            "COLUM/if/a2500 JEANS/faf/a1500 KHORT/a860 _BWI_10/a143"
+          ]
+        },
+        "Y10": {
+          "full_name": "RNAV Yankee Runway 10",
+          "runway": "10",
+          "type": "RNAV",
+          "waypoints": [
+            "COLUM/iaf/a2500 JEANS/faf/a1500 _BWI_10/a143"
+          ]
+        },
+        "Z10": {
+          "full_name": "RNAV Zulu Runway 10",
+          "runway": "10",
+          "type": "RNAV",
+          "waypoints": [
+            "COLUM/iaf/a2500 EDMEF/a2200 JEANS/faf/a1500 _BWI_10/a143",
+            "ANCRR/iaf/a4000 BEGUE/a3500/s210 CATVI/a2600 VOBIH/a2200 JEANS/faf/a1500 _BWI_10/a143",
+            "STRPS/iaf/a4000 DEDLE/a3300/s210 EDMEF/a2200 JEANS/faf/a1500 _BWI_10/a143"
+          ]
+        },
+        "I5L": {
+          "full_name": "ILS Runway 15L",
+          "runway": "15L",
+          "type": "ILS",
+          "waypoints": [
+            "KRENE/iaf/a3000 MNKEY/a2500 ZOWEE/faf/a2100 ADCOK/a980 _BWI_15L/a142"
+          ]
+        },
+        "R5L": {
+          "full_name": "RNAV Runway 15L",
+          "runway": "15L",
+          "type": "RNAV",
+          "waypoints": [
+            "KRENE/iaf/a3000 MNKEY/a2500 ZOWEE/faf/a2100 ADCOK/a980 _BWI_15L/a142"
+          ]
+        },
+        "I5R": {
+          "full_name": "ILS Runway 15R",
+          "runway": "15R",
+          "type": "ILS",
+          "waypoints": [
+            "EMI/iaf/a4000 BMORE/if/a2500 KEVVN/a2100 TATTO/a1080 _BWI_15R/a138"
+          ]
+        },
+        "Y5R": {
+          "full_name": "RNAV Yankee Runway 15R",
+          "runway": "15R",
+          "type": "RNAV",
+          "waypoints": [
+            "EMI/iaf/a4000 BMORE/if/a2500 KEVVN/a2100 TATTO/a1080 _BWI_15R/a138"
+          ]
+        },
+        "Z5R": {
+          "full_name": "RNAV Zulu Runway 15R",
+          "runway": "15R",
+          "type": "RNAV",
+          "waypoints": [
+            "EMI/iaf/a4000 BMORE/if/a2500 KEVVN/a2100 _BWI_15R/a138"
+          ]
+        },
+        "I28": {
+          "full_name": "ILS Runway 28",
+          "runway": "28",
+          "type": "ILS",
+          "waypoints": [
+            "HURTZ/a2000/iaf JURTI/a2000/faf ZIXUS/a620 _BWI_28/a143"
+          ]
+        },
+        "Y28": {
+          "full_name": "RNAV Yankee Runway 28",
+          "runway": "28",
+          "type": "RNAV",
+          "waypoints": [
+            "HURTZ/a2000/iaf JURTI/a2000/faf ZIXUS/a620 _BWI_28/a143"
+          ]
+        },
+        "Z28": {
+          "full_name": "RNAZ Zulu Runway 28",
+          "runway": "28",
+          "type": "RNAV",
+          "waypoints": [
+            "HURTZ/a2000/if JURTI/a2000/faf ZIXUS/a620 _BWI_28/a143",
+            "BILIT/iaf/a11000/s250 ZUKBU HURTZ/a2000/if JURTI/a2000/faf ZIXUS/a620 _BWI_28/a143"
+          ]
+        },
+        "I3L": {
+          "full_name": "ILS Runway 33L",
+          "runway": "33L",
+          "type": "ILS",
+          "waypoints": [
+            "JANNS/if/a4000 SPLAT/a2400 GRAFE/a1500/faf HAXAK/a600 _BWI_33L/a143"
+          ]
+        },
+        "Y3L": {
+          "full_name": "RNAV Yankee Runway 33L",
+          "runway": "33L",
+          "type": "RNAV",
+          "waypoints": [
+            "JANNS/if/a4000 SPLAT/a2400 GRAFE/a1500/faf _BWI_33L/a143"
+          ]
+        },
+        "Z3L": {
+          "full_name": "RNAV Zulu Runway 33L",
+          "runway": "33L",
+          "type": "RNAV",
+          "waypoints": [
+            "JANNS/if/a4000 SPLAT/a2400 GRAFE/a1500/faf _BWI_33L/a143",
+            "JETNA/a6000/iaf/s210 LIYCO/if/a3500 MILRE/a1700 GRAFE/a1500/faf _BWI_33L/a143",
+            "KEEYY/a4000/s210/if LABPI/a3100 GRAFE/a1500/faf _BWI_33L/a143"
+          ]
+        },
+        "I3R": {
+          "full_name": "ILS Runway 33R",
+          "runway": "33R",
+          "type": "ILS",
+          "waypoints": [
+            "DUDDS/a3000/if ORIOL/a2000/faf EXEVE/a940 _BWI_33R/a124"
+          ]
+        },
+        "R3R": {
+          "full_name": "ILS Runway 33R",
+          "runway": "33R",
+          "type": "ILS",
+          "waypoints": [
+            "DUDDS/a3000/if ORIOL/a2000/faf EXEVE/a940 _BWI_33R/a124"
+          ]
+        }
+      },
+      "approach_regions": {
+        "28": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 5.7,
+          "descent_altitude": 2000,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1730010,-76.6589950",
+          "reference_heading": 285,
+          "reference_length": 25,
+          "reference_altitude": 100
+        },
+        "33L": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 4.1,
+          "descent_altitude": 1500,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1677550,-76.6656730",
+          "reference_heading": 335,
+          "reference_length": 25,
+          "reference_altitude": 100
+        },
+        "10": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 4.1,
+          "descent_altitude": 1500,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1744200,-76.6838220",
+          "reference_heading": 105,
+          "reference_length": 25,
+          "reference_altitude": 100
+        },
+        "15R": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 6.0,
+          "descent_altitude": 2100,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1822410,-76.6790990",
+          "reference_heading": 155,
+          "reference_length": 25,
+          "reference_altitude": 100
+        },
+        "33R": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 5.8,
+          "descent_altitude": 2000,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1786800,-76.6554840",
+          "reference_heading": 335,
+          "reference_length": 25,
+          "reference_altitude": 100
+        },
+        "15L": {
+          "heading_tolerance": 90,
+          "near_distance": 1,
+          "near_half_width": 1.5,
+          "far_half_width": 5,
+          "region_length": 20,
+          "descent_distance": 6.0,
+          "descent_altitude": 2100,
+          "above_altitude_tolerance": 1000,
+          "below_altitude_tolerance": 500,
+          "reference_point": "39.1849320,-76.6612760",
+          "reference_heading": 155,
+          "reference_length": 25,
+          "reference_altitude": 100
+        }
+      },
+      "converging_runways": [
+        {
+          "runways": ["28", "33L"],
+          "leader_directions": ["N", "W"],
+          "tie_symbol": "/",
+          "stagger_symbol": "0",
+          "tie_offset": 2.5
+        },
+        {
+          "runways": ["28", "33R"],
+          "leader_directions": ["N", "W"],
+          "tie_symbol": "/",
+          "stagger_symbol": "0",
+          "tie_offset": 2.5
+        },
+        {
+          "runways": ["10", "15L"],
+          "leader_directions": ["N", "E"],
+          "tie_symbol": "/",
+          "stagger_symbol": "0",
+          "tie_offset": 2.5
+        },
+        {
+          "runways": ["10", "15R"],
+          "leader_directions": ["N", "E"],
+          "tie_symbol": "/",
+          "stagger_symbol": "0",
+          "tie_offset": 2.5
+        }
+      ]
+    }
+  }
+}
