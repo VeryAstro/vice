@@ -1091,5 +1091,86 @@
         "waypoints": "N40.04.06.836,W76.51.10.004 N40.00.18.472,W76.40.34.798/ho DRRES/a10000 RAUKY/a9000+ TRISH/a9000-/s250"
       }
     ]
+  },
+  "center": "BAL",
+  "control_positions": {
+    "DC_CTR": {
+      "frequency": 133725,
+      "full_name": "Washington Center",
+      "scope_char": "C",
+      "sector_id": "32"
+      },
+      "NY_CTR": {
+      "frequency": 125325,
+      "full_name": "New York Center",
+      "scope_char": "C",
+      "sector_id": "N56"
+      },
+      "DCA_J_APP": {
+        "frequency": 119850,
+        "full_name" : "Potomac Approach",
+        "scope_char": "J",
+        "sector_id": "1J"
+      },
+    "IAD_M_APP": {
+      "frequency": 126100,
+      "full_name": "Potomac Approach",
+      "scope_char": "M",
+      "sector_id": "3M"
+    },
+    "BWI_W_TWR": {
+      "frequency": 119400,
+      "full_name": "Baltimore Tower",
+      "scope_char": "T",
+      "sector_id": "1T"
+    },
+      "BWI_E_TWR" :{
+       "frequency": 123750,
+       "full_name": "Baltimore Tower",
+       "scope_char": "A",
+       "sector_id": "1A"
+    },
+    "BWI_G_APP": {
+      "frequency": 124550,
+      "full_name": "Potomac Approach",
+      "scope_char": "G",
+      "sector_id": "1G"
+    },
+    "BWI_W_APP": {
+      "frequency": 128700,
+      "full_name": "Potomac Approach",
+      "scope_char": "W",
+      "sector_id": "1W"
+    },
+    "BWI_B_APP": {
+      "frequency": 125525,
+      "full_name": "Potomac Approach",
+      "scope_char": "B",
+      "sector_id": "1B"
+    },
+    "BWI_H_APP": {
+      "frequency": 133850,
+      "full_name": "Potomac Approach",
+      "scope_char": "H",
+      "sector_id": "1H"
+    },
+    "BWI_P_APP": {
+      "frequency": 133750,
+      "full_name": "Potomac Approach",
+      "scope_char": "P",
+      "sector_id": "1P"
+    },
+    "BWI_S_APP": {
+      "frequency": 119700,
+      "full_name": "Potomac Approach",
+      "scope_char": "S",
+      "sector_id": "1S"
+    },
+    "BWI_N_APP": {
+      "frequency": 119000,
+      "full_name": "Potomac Approach",
+      "scope_char": "N",
+      "sector_id": "1N"
+    }
   }
 }
