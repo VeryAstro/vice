@@ -446,6 +446,15 @@ func (w *World) GetAllControllers() map[string]*Controller {
 	return w.Controllers
 }
 
+func (w *World) DepartureController(ac *Aircraft) string {
+	callsign := w.MultiControllers.ResolveController(ac.DepartureContactController,
+		func(callsign string) bool {
+			ctrl, ok := w.Controllers[callsign]
+			return ok && ctrl.IsHuman
+		})
+	return Select(callsign != "", callsign, w.PrimaryController)
+}
+
 func (w *World) GetUpdates(eventStream *EventStream, onErr func(error)) {
 	if w.simProxy == nil {
 		return
@@ -701,7 +710,7 @@ func (w *World) sampleAircraft(icao, fleet string) (*Aircraft, string) {
 				id += string(rune('A' + rand.Intn(26)))
 			}
 		}
-		if id == "0" {
+		if id == "0" || id == "00" || id == "000" || id == "0000" {
 			continue // bleh, try again
 		} else if _, ok := w.Aircraft[callsign+id]; ok {
 			continue // it already exits
