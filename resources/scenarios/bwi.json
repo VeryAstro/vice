@@ -361,17 +361,17 @@
           "CONLE": {
             "cleared_altitude": 14000,
             "route": "CONLE4",
-            "waypoints": "_BWI_28 _BWI10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+"
+            "waypoints": "_BWI_28 _BWI_10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+"
           },
           "COLIN": {
             "cleared_altitude": 14000,
             "route": "CONLE4",
-            "waypoints": "_BWI_28 _BWI10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+ CONLE/a14000- AMEEE"
+            "waypoints": "_BWI_28 _BWI_10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+ CONLE/a14000- AMEEE"
           },
           "SCOOB": {
             "cleared_altitude": 14000,
             "route": "CONLE4",
-            "waypoints": "_BWI_28 _BWI10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+ CONLE/a14000- AMEEE COLIN"
+            "waypoints": "_BWI_28 _BWI_10 BOSLY/s230 RAISN STABL/a13000- OHSSS/a11000+ CONLE/a14000- AMEEE COLIN"
           },
           "PALEO": {
             "cleared_altitude": 4000,
@@ -614,7 +614,6 @@
             }
           ],
           "destination": "KJFK",
-          "cruise_altitude": 17000,
           "exit": "ACY",
           "route": "ACY T315 PANZE V44 CAMRN"
         },
@@ -625,7 +624,6 @@
             }
           ],
           "destination": "KLGA",
-          "cruise_altitude": 21000,
           "exit": "ENO",
           "route": "ENO KORRY4"
         },
@@ -637,7 +635,6 @@
             }
           ],
           "destination" : "KEWR",
-          "cruise_altitude": 19000,
           "exit": "DQO",
           "route": "DQO PHLBO4"
         },
@@ -792,8 +789,8 @@
           "15L": "ANTHM ROKTT/a11000/s250 FLAAG/a6000-7000 STARZ/a4000 STRPS/a4000/s210 BRAYV HOIST/h285",
           "15R": "ANTHM ROKTT/a11000/s250 FLAAG/a6000-7000 STARZ/a4000 STRPS/a4000/s210 BRAYV HOIST/h285",
           "28":  "ANTHM JABRR/a11000/s250 OLBAY/a9000-/s250 CRABZ/a5000-6000 FINNZ/a5000 ASHOR/a4000 GRAMZ/h105",
-          "33L": "ANTHM JABBR/a11000/s250 OLBAY/a9000-/s250 CRABZ/a5000-6000 FINNZ/a5000 KEEYY/a4000/s210 ROAPS HOOOK/h155",
-          "33R": "ANTHM JABBR/a11000/s250 OLBAY/a9000-/s250 CRABZ/a5000-6000 FINNZ/a5000 KEEYY/a4000/s210 ROAPS HOOOK/h155"
+          "33L": "ANTHM JABRR/a11000/s250 OLBAY/a9000-/s250 CRABZ/a5000-6000 FINNZ/a5000 KEEYY/a4000/s210 ROAPS HOOOK/h155",
+          "33R": "ANTHM JABRR/a11000/s250 OLBAY/a9000-/s250 CRABZ/a5000-6000 FINNZ/a5000 KEEYY/a4000/s210 ROAPS HOOOK/h155"
         },
         "waypoints": "CURBY/a21000-24000 KEESH/ho BUBBI/a15000-18000/s280 SHEPH/a15000- EAGLL/a12000-13000 ANTHM"
       }
@@ -801,7 +798,7 @@
     "BRAND1": [
       {
         "airlines": {
-          "KDCA": [
+          "KEWR": [
             {
               "airport": "KRIC",
               "icao": "SKW"
@@ -826,6 +823,7 @@
         "initial_altitude": 14000,
         "initial_controller": "DC_CTR",
         "initial_speed": 280,
+        "route": "/. BRAND1",
         "waypoints": "SHLBK N38.24.09.256,W76.24.38.726/ho LOUIE/a13000 BACKY ODESA DQO RUUTH BRAND/a7000 WATJA EWR/a54"
       }
     ],
@@ -879,15 +877,7 @@
         "initial_controller": "NY_CTR",
         "initial_speed": 270,
         "route": "/. CLIPR3",
-        "runway_waypoints": {
-          "1":  "EYESS FELTY HITEK CAVDI/h187",
-          "4":  "EYESS FELTY HITEK CAVDI/h187",
-          "15": "EYESS EDDWD MEGGS NAYES/h327",
-          "19": "EYESS EDDWD MEGGS NAYES/h327",
-          "22": "EYESS EDDWD MEGGS NAYES/h327",
-          "33": "EYESS FELTY HITEK CAVDI/h187"
-        },
-        "waypoints": "MXE N39.51.27.595,W75.45.58.404/ho NUGGY TROYZ BELAY TRISH CLIPR/a12000 BAL/a10000/s250 EYESSkp BRUNC FELTY HITEK CAVDI/a5000 DCA/a5"
+        "waypoints": "MXE N39.51.27.595,W75.45.58.404/ho NUGGY TROYZ BELAY TRISH CLIPR/a12000 BAL/a10000/s250 EYESS BRUNC FELTY HITEK CAVDI/a5000 DCA/a5"
       }
     ],
     "DEALE3": [
@@ -973,7 +963,7 @@
           "15L": "MIIDY/a7000+/s250 KAPTN/a5000- NAVEY ANCRR LURRL HUNNN/h300",
           "15R": "MIIDY/a7000+/s250 KAPTN/a5000- NAVEY ANCRR LURRL HUNNN/h300",
           "28":  "MIIDY/a7000+/s250 TROTZ/a3000 HURTZ/h314",
-          "33L": "MIIDY/a7000+/s250 SNUGI/a5000- JANNS/a4000+/s210/323",
+          "33L": "MIIDY/a7000+/s250 SNUGI/a5000- JANNS/a4000+/s210/h323",
           "33R": "MIIDY/a7000+/s250 DUDDS/a3000+/h323"
         },
         "waypoints": "LAFLN N38.46.54.883,W75.35.11.889/ho CHOPS/a12000 BILIT/s250 TRUTH/a10000/s250 MIIDY/a7000+/s250"
@@ -1172,5 +1162,437 @@
       "scope_char": "N",
       "sector_id": "1N"
     }
+  },
+  "default_scenario": "BWI West",
+  "fixes": {
+    "_BWI_10":  "N39.10.28.774,W76.41.22.398",
+    "_BWI_15L": "N39.11.14.079,W76.39.48.271",
+    "_BWI_15R": "N39.11.06.788,W76.40.55.053",
+    "_BWI_28":  "N39.10.21.310,W76.39.09.683",
+    "_BWI_33L": "N39.09.51.026,W76.39.44.572",
+    "_BWI_33R": "N39.10.34.407,W76.39.11.423",
+    "KEWR" : "EWR",
+    "KBWI": "BAL",
+    "KDCA": "DCA",
+    "DCA":  "N38.51.34.118,W77.02.10.979"
+  },
+  "inhibit_ca_volumes": [
+    {
+      "name": "BWI NO CA",
+      "type": "circle",
+      "floor": 0,
+      "ceiling": 2000,
+      "radius": 5,
+      "center": "BAL"
+    }
+  ],
+  "magnetic_variation": 0,
+  "name": "KBWI",
+  "nm_per_latitude": 60,
+  "nm_per_longitude": 45,
+  "primary_airport": "KBWI",
+  "radar_sites": {
+    "BAL": {
+      "char": "B",
+      "position": "39.1794850,-76.6838430",
+      "elevation": 325,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7, 
+      "slope_angle": 0.3 
+    },
+    "ADW": {
+      "char": "A",
+      "position": "38.8122660,-76.8670090",
+      "elevation": 338,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7, 
+      "slope_angle": 0.3
+    },
+    "CHO": {
+      "char": "C",
+      "position": "38.1800000,-78.4193610",
+      "elevation": 1599,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7, 
+      "slope_angle": 0.3
+    },
+    "DCA": {
+      "char": "D",
+      "position": "38.8451920,-77.0331090",
+      "elevation": 88,
+      "primary_range":60,
+      "secondary_range":120,
+      "silence_angle": 54.7 , 
+      "slope_angle": 0.3
+    },
+    "IAD": {
+      "char": "I",
+      "position": "38.9565300,-77.4633900",
+      "elevation": 425,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7, 
+      "slope_angle": 0.3
+    },
+    "MDT": {
+      "char": "T",
+      "position": "40.1857740,-76.7950640",
+      "elevation": 1007,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7, 
+      "slope_angle": 0.3
+    },
+    "MRB": {
+      "char": "M",
+      "position": "39.3952650,-77.9946880",
+      "elevation": 883,
+      "primary_range": 70,
+      "secondary_range": 120,
+      "silence_angle": 49.7,
+      "slope_angle": 0.3
+    },
+    "NHK": {
+      "char": "N",
+      "position": "38.2987080,-76.4120690",
+      "elevation": 88,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 59.7, 
+      "slope_angle": 0.3
+    },
+    "PHL": {
+      "char": "P",
+      "position": "39.8591750,-75.2667470",
+      "elevation": 123,
+      "primary_range": 70,
+      "secondary_range": 120,
+      "silence_angle": 49.7,
+      "slope_angle": 0.3
+    },
+    "RIC": {
+      "char": "R",
+      "position": "37.5053410,-77.3242350",
+      "elevation": 259,
+      "primary_range": 60,
+      "secondary_range": 120,
+      "silence_angle": 54.7,
+      "slope_angle": 0.3
+    },
+    "QBE": {
+      "char": "E",
+      "position": "37.5173130,-79.5101010",
+      "elevation": 4353,
+      "primary_range": 200,
+      "secondary_range": 250,
+      "silence_angle": 59.7, 
+      "slope_angle": 0.3
+    },
+    "QBN": {
+      "char": "Q",
+      "position": "37.3828590,-76.9987510",
+      "elevation": 303,
+      "primary_range": 200,
+      "secondary_range": 250,
+      "silence_angle": 59.7, 
+      "slope_angle": 0.3
+    },
+    "QIE": {
+      "char": "Z",
+      "position": "39.8247290,-74.9541500",
+      "elevation": 371,
+      "primary_range": 200,
+      "secondary_range": 250,
+      "silence_angle": 59.7, 
+      "slope_angle": 0.3
+    },
+    "QPL": {
+      "char": "L",
+      "position": "38.8823130,-77.7030850",
+      "elevation": 1943,
+      "primary_range": 200,
+      "secondary_range": 250,
+      "silence_angle": 59.7, 
+      "slope_angle": 0.3
+    }
+  },
+  "reporting_points": [
+    "KEESH",
+    "BUBBI",
+    "LOUIE",
+    "NUGGY",
+    "BILIT",
+    "CHOPS",
+    "JAYOH",
+    "CAPKO",
+    "DRRES"
+  ],
+  "scenarios": {
+    "BWI East": {
+      "arrival_runways": [
+      {
+        "airport": "KBWI",
+        "runway": "10"
+      },
+      {
+        "airport": "KBWI",
+        "runway": "15L"
+      }
+      ],
+    "arrivals": {
+      "ANTHM3": {
+        "KBWI": 10
+      },
+      "BRAND1": {
+        "KEWR" : 3
+      },
+      "CLIPR3": {
+        "KDCA": 5
+      },
+      "DEALE3": {
+        "KDCA": 5
+      },
+      "MIIDY2": {
+        "KBWI": 10
+      },
+      "RAVNN6": {
+        "KBWI": 10
+      },
+      "TRISH3": {
+        "KBWI": 10
+      }
+    },
+    "solo_controller": "BWI_S_APP",
+    "multi_controllers": {
+      "default": {
+        "BWI_S_APP": {"primary": true},
+        "BWI_N_APP": {"backup": "BWI_S_APP", "arrivals": ["RAVNN6"]},
+        "BWI_G_APP": {"backup": "BWI_S_APP", "arrivals": ["MIIDY2", "DEALE3", "BRAND1"], "departures": ["KBWI"]},
+        "BWI_P_APP": {"backup": "BWI_G_APP"},
+        "BWI_H_APP": {"backup": "BWI_G_APP", "arrivals": ["ANTHM3"]},
+        "BWI_W_APP": {"backup": "BWI_G_APP", "arrivals": ["CLIPR3", "TRISH3"]},
+        "BWI_B_APP": {"backup": "BWI_W_APP"}
+      }
+    },
+    "controllers": [
+      "DC_CTR",
+      "BWI_E_TWR",
+      "BWI_W_TWR",
+      "BWI_S_APP",
+      "DCA_J_APP",
+      "NY_CTR"
+    ],
+    "default_map": "CHP Base",
+    "wind": {
+      "direction": 160,
+      "speed": 8
+    },
+    "departure_runways": [
+      {
+        "airport": "KBWI",
+        "rate": 45,
+        "runway": "15R"
+      }
+    ]
+  },
+  "BWI West": {
+    "arrival_runways": [
+    {
+      "airport": "KBWI",
+      "runway": "33L"
+    },
+    {
+      "airport": "KBWI",
+      "runway": "33R"
+    }
+    ],
+  "arrivals": {
+    "ANTHM3": {
+      "KBWI": 10
+    },
+    "BRAND1": {
+      "KEWR": 3
+    },
+    "CLIPR3": {
+      "KDCA": 5
+    },
+    "DEALE3": {
+      "KDCA": 5
+    },
+    "MIIDY2": {
+      "KBWI": 10
+    },
+    "RAVNN6": {
+      "KBWI": 10
+    },
+    "TRISH3": {
+      "KBWI": 10
+    }
+  },
+  "solo_controller": "BWI_S_APP",
+  "multi_controllers": {
+    "default": {
+      "BWI_S_APP": {"primary": true},
+      "BWI_N_APP": {"backup": "BWI_S_APP", "arrivals": ["RAVNN6"]},
+      "BWI_G_APP": {"backup": "BWI_S_APP", "arrivals": ["MIIDY2", "DEALE3", "BRAND1"]},
+      "BWI_P_APP": {"backup": "BWI_G_APP"},
+      "BWI_H_APP": {"backup": "BWI_G_APP", "arrivals": ["ANTHM3"]},
+      "BWI_W_APP": {"backup": "BWI_G_APP", "arrivals": ["CLIPR3", "TRISH3"], "departures": ["KBWI"]},
+      "BWI_B_APP": {"backup": "BWI_W_APP"}
+    }
+  },
+  "controllers": [
+    "DC_CTR",
+    "BWI_E_TWR",
+    "BWI_W_TWR",
+    "BWI_S_APP",
+    "DCA_J_APP",
+    "NY_CTR"
+  ],
+  "default_map": "CHP Base",
+  "wind": {
+    "direction": 160,
+    "speed": 8
+  },
+  "departure_runways": [
+    {
+      "airport": "KBWI",
+      "rate": 45,
+      "runway": "28"
+    }
+  ]
+}
+},
+"scratchpads": {
+  "CONLE": "AME",
+  "COLIN": "AME",
+  "SCOOB": "AME",
+  "PALEO": "PAL",
+  "ENO": "ENO",
+  "ACY": "ACY",
+  "SIE": "SIE",
+  "SWANN": "SWN",
+  "DQO": "DQO",
+  "OOD": "OOD",
+  "TERPZ": "TER",
+  "RAMAY": "TRM",
+  "OTTTO": "TOT",
+  "MAULS": "TCL",
+  "FLASK": "TCL",
+  "GLANC": "TSC",
+  "MELTN": "TJD",
+  "RRSIN": "FJD",
+  "JERES": "T11",
+  "MCRAY": "T18"
+},
+"stars_maps": [
+  {
+    "group": 0,
+    "label": "CBASE",
+    "name": "CHP Base"
+  },
+  {
+  "group": 0,
+  "label": "CAPP",
+  "name": "CHP Approaches"
+  },
+  {
+  "group": 1,
+  "label": "AMVA",
+  "name": "PCT MVA"
+  },
+  {
+    "group": 1,
+    "label": "ASFRA",
+    "name": "PCT SFRA"
+  },
+  {
+    "group": 1,
+    "label": "CSIDSTR",
+    "name": "CHP SIDSTAR"
+  },
+  {
+    "group": 1,
+    "label": "CMAPFIX",
+    "name": "CHP Map Fixes"
+  },
+  {
+    "group": 1,
+    "label": "CGPSAPP",
+    "name": "CHP GPS Approach"
+  },
+  {
+    "group": 1,
+    "label": "CHOLD",
+    "name": "CHP Hold Areas"
+  },
+  {
+    "group": 1,
+    "label": "CTWR",
+    "name": "CHP Tower"
+  },
+  {
+    "group": 1,
+    "label": "CVOR",
+    "name": "CHP VOR"
+  },
+  {
+    "group": 1,
+    "label": "ABRAVO",
+    "name": "PCT ClassB"
+  },
+  {
+    "group": 1,
+    "label": "ADELTA",
+    "name": "PCT ClassD"
+  },
+  {
+    "group": 1,
+    "label": "AARPT",
+    "name": "PCT Airport"
+  },
+  {
+    "group": 1,
+    "label": "ACOAST",
+    "name": "PCT Coastlines"
+  },
+  {
+    "group": 1,
+    "label": "AHELO",
+    "name": "PCT Helo Route"
+  },
+  {
+    "group": 1,
+    "label": "AZONE",
+    "name": "PCT Zones"
+  },
+  {
+    "group": 1,
+    "label": "AROAD",
+    "name": "PCT Roads"
+  },
+  {
+    "group": 1,
+    "label": "AJRTE",
+    "name": "PCT JAirway"
+  },
+  {
+    "group": 1,
+    "label": "AQRTE",
+    "name": "PCT QAirway"
+  },
+  {
+    "group": 1,
+    "label": "ATRTE",
+    "name": "PCT TAirway"
+  },
+  {
+    "group": 1,
+    "label": "AVRTE",
+    "name": "PCT VAirway"
   }
+]
 }
