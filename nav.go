@@ -673,8 +673,9 @@ func (nav *Nav) TargetHeading(wind WindModel, lg *Logger) (heading float32, turn
 
 	heading, turn, rate = nav.FlightState.Heading, TurnClosest, 3 // baseline
 
-	if nav.Approach.InterceptState == InitialHeading ||
-		nav.Approach.InterceptState == TurningToJoin {
+	// nav.Heading.Assigned may still be nil pending a deferred turn
+	if (nav.Approach.InterceptState == InitialHeading ||
+		nav.Approach.InterceptState == TurningToJoin) && nav.Heading.Assigned != nil {
 		return nav.LocalizerHeading(wind, lg)
 	}
 
@@ -1983,7 +1984,10 @@ func (nav *Nav) clearedApproach(airport string, id string, straightIn bool, arr 
 		return resp, err
 	} else {
 		nav.Approach.Cleared = true
-		nav.Altitude = NavAltitude{} // in case we have intercepted but are only being cleared now
+		if nav.Approach.InterceptState == HoldingLocalizer {
+			// First intercepted then cleared, so allow it to start descending.
+			nav.Altitude = NavAltitude{}
+		}
 		// Cleared approach also cancels speed restrictions.
 		nav.Speed = NavSpeed{}
 
@@ -2003,6 +2007,8 @@ func (nav *Nav) CancelApproachClearance() string {
 	}
 
 	nav.Approach.Cleared = false
+	nav.Approach.InterceptState = NotIntercepting
+	nav.Approach.NoPT = false
 
 	return "cancel approach clearance."
 }
